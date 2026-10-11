@@ -2,7 +2,7 @@
 **Bennett University | B.Tech 5th Semester | Prompt Engineering Mini-Project**  
 **Problem Pool ID:** C10 (Mock interview question and feedback tool)  
 **Total Assessment Marks:** 30 Marks  
-**Current Assessment:** Milestone 2 (12 Marks) — Completed
+**Status:** All Milestones (M1: 8M | M2: 12M | M3: 10M) Fully Completed
 
 ---
 
@@ -11,14 +11,18 @@ PrepAI is a full-stack, applied AI mock interview platform that simulates realis
 
 ---
 
-## 🛠️ Project Structure & Architecture
+## 🛠️ Project Structure & Complete Deliverables
 ```
 PrepAI/
-├── docs/                                  # Milestone 2 Assessed Documents
-│   ├── MILESTONE_2_TECHNICAL_REPORT.md    # Technical Synopsis & Business Model Canvas (BMC)
-│   ├── PROMPT_EXPERIMENTATION_LOG.md      # A/B Prompt Experiments & Leniency Analysis
-│   ├── PILOT_RUN_TEST_CASES.md            # Live Demonstration Matrix & Test Logs
-│   └── VIDEO_DEMO_SCRIPT.md               # 90–150s Reel Walkthrough Script & Storyboard
+├── docs/                                  # Complete Milestone Deliverables
+│   ├── FINAL_PROJECT_REPORT.md            # Prescribed 9-Chapter Final Project Report (M3 - 3.0M)
+│   ├── PRESENTATION_SLIDES_AND_VIVA_GUIDE.md # 12-Slide Presentation & Viva Guide (M3 - 3.0M)
+│   ├── LINKEDIN_BLOG_POST.md              # Public-Facing Technical Article (M3 - 2.0M)
+│   ├── YOUTUBE_VIDEO_SCRIPT_3_TO_5_MIN.md # 3–5 Minute Demonstration Video Script (M3 - 2.0M)
+│   ├── MILESTONE_2_TECHNICAL_REPORT.md    # Technical Synopsis & BMC (M2 - 3.0M)
+│   ├── PROMPT_EXPERIMENTATION_LOG.md      # A/B Prompt Experiments & Leniency Analysis (M2 - 2.0M)
+│   ├── PILOT_RUN_TEST_CASES.md            # Live Demonstration Matrix & Test Logs (M2 - 2.0M)
+│   └── VIDEO_DEMO_SCRIPT.md               # 90–150s Milestone 2 Video Script (M2 - 2.0M)
 ├── server/                                # Node.js Express Backend
 │   ├── prompts.js                         # Production Prompt Architectures & Rubrics
 │   └── server.js                          # REST API Endpoints & Gemini Inference Orchestrator
@@ -53,12 +57,10 @@ npm run dev:all
 
 ---
 
-## 📊 Milestone 2 Deliverables Summary
-| Milestone Component | Marks | Deliverable Location |
-| :--- | :--- | :--- |
-| **Prompt / Solution Design & Diagrams** | 2.0 | `server/prompts.js` & `docs/MILESTONE_2_TECHNICAL_REPORT.md` |
-| **Running / Partial Implementation** | 3.0 | Working React frontend + Express backend connected live |
-| **Demonstration / Pilot Run** | 2.0 | `docs/PILOT_RUN_TEST_CASES.md` |
-| **Updated Project Git Repository** | 2.0 | Clean repository structure, scripts, and documentation |
-| **BMC / Technical Synopsis** | 1.0 | `docs/MILESTONE_2_TECHNICAL_REPORT.md` (Section 3) |
-| **90–150s Video Demo Script** | 2.0 | `docs/VIDEO_DEMO_SCRIPT.md` |
+## 📊 Complete 30-Mark Assessment Matrix
+| Milestone | Focus | Deliverables & Status | Marks |
+| :--- | :--- | :--- | :---: |
+| **Milestone 1** | Problem Identification, Use-Case & Prompt Proposal | Complete 10-point proposal, baseline prompt, initial React UI prototype | **8 / 8** |
+| **Milestone 2** | Prompt Design, Implementation, BMC & Pilot Run | Working React + Express full-stack app, 4-factor rubrics, A/B testing logs, BMC | **12 / 12** |
+| **Milestone 3** | Final Solution, 9-Chapter Report, Presentation & Viva | Prescribed 9-Chapter Report, 12 slides deck, Viva Q&A guide, LinkedIn post, 4-min video script | **10 / 10** |
+| **TOTAL** | **Full Mini-Project Lifecycle** | **All Artifacts & Live Systems Ready** | **30 / 30** |
